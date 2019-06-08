@@ -1,0 +1,185 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  -webkit-box-sizing:border-box; 
+  -moz-box-sizing:border-box;
+  -box-sizing:border-box;
+}
+body{
+  background-color: #f9f9f9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  min-height: 100vh;
+}
+nav{
+
+  border-bottom: 4px solid rgb(0, 152, 76);
+  background-color: white;
+  margin-bottom: 10px;
+}
+nav ul{
+  display: flex;
+  padding: 6px;
+  justify-content: flex-end;
+}
+nav ul li{
+  list-style: none;
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  border-right: 1px solid rgba(114, 111, 111, .3);
+}
+li:last-child{
+margin-right: 20px;
+border-right:0;
+}
+.menu{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  height: calc(100vh - 76px);
+}
+.contenedor{
+  width: 95%;
+  background-color: white;
+  padding: 40px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.19);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.19);
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 0px solid #000000;
+
+}
+.numeroTarea{
+  display: flex;
+  justify-content: center;
+}
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+.paginacion ul li{
+  list-style: none;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.paginacion ul li a{
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  background-color: rgb(240, 240, 240);
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.datos{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form1, .form2, .form3, .form4, .form5, .form6,.form7, .form8, .form9{
+display: flex;
+ flex-direction: column;
+   align-items: center;
+}
+.centrarBtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.enviar{
+  margin-top: 10px;
+}
+.btndireccion{
+   display: flex;
+   
+}
+.paginacion ul{
+  display: flex;
+}
+
+.paginacion ul li .incorrecta{
+ background-color: red;
+ color: white;
+}
+.paginacion ul li .correcta{
+ background-color: green;
+ color: white;
+}
+.imgLogin{
+  width: 100px;
+}
+.btndireccion{
+  display: flex;
+
+}
+
+.mostrarTabla{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td{
+  padding: 5px;
+  padding-right: 12px;
+    border: solid 1px black;
+}
+table {
+  border: solid 1px black;
+}
+thead tr{
+   border: none;
+  }
+thead{
+  background-color: rgb(0, 152, 76);
+  border-bottom: solid 3px #0f362d;
+  color: white;
+}
+/* barra de progreso */
+
+.barraProgreso{
+  width: 510px;
+  height: 26px;
+  background-color: #bbb;
+  border-radius: 13px;
+  padding: 3px;
+ 
+}
+.progreso{
+width: 0px;
+height: 20px;
+border-radius: 10px;
+background-color: rgb(0, 152, 76);
+}
